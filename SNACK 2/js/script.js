@@ -46,34 +46,28 @@ const teams = [
     }
 ];
 
-let index = 0;
+let newteamArray;
+let newElem;
+for (let i = 0; i < teams.length; i++) {
+    teams[i].fouls = genarateRandomNumber(1, 100);
+    teams[i].points = genarateRandomNumber(1, 100);
 
-teams.forEach(team, i => {
-    const {points, fouls} = team;
-    team
-});
+}
+console.log(teams)
 
 
 
-// FUNCTION
 
+
+// FUNCTIONS
+/**funzione che ha in entrata un numero massimo e un numero minimo e da in uscita un numero random.
+ * 
+ * @param {min number} a 
+ * @param {max number} b 
+ * @returns {random number}
+ */
 function genarateRandomNumber(a,b) {
 
     let random = Math.floor(Math.random() * b) + a;
     return random;
-}
-
-
-
-
-// SNACK BONUS
-const numbersArray = [23, 14, 6, 8, 10, 25, 85, 58, 74, 9, 5, 7, 12,];
-
-
-// getSubArray(numbersArray, 5, 9)
-
-
-function getSubArray(array, a, b) {
-
-    
 }
