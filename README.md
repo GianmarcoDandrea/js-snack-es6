@@ -21,8 +21,20 @@ const newArray = getSubArray(numbersArray, 1, 3) ---> [14, 6, 8];
 ## SVOLGIMENTO ##
 
 ### SNACK 1 ###
-1. Tramite ciclo faccio forEach scorrere l'array e con object destructuring prendo le chiavi degli oggeti e le stampo a video e poi tramite un ciclo if stampo l'oggetto con il peso più baso.
+- Tramite ciclo faccio forEach scorrere l'array e con object destructuring prendo le chiavi degli oggeti e le stampo a video e poi tramite un ciclo if stampo l'oggetto con il peso più baso.
 
 ### SNACK 2 ###
+- Creo una funzione che mi genera un numero random compreso tra due valori che vado a decidere
+
+- Tramite ciclo forEach vado a sostituire il numero random al posto degli 0 in points e fouls.
+
+- Tramite un altro ciclo forEach e con l'object destructuring vado a prendere i volori delle key name e fouls 
+
+- Dentro il ciclo creo un oggetto in cui vado ad inserire i valori di name e fouls 
+
+- Per ogni iterazione vado a pushare dentro il nuovo array oggetto
+
+- A fine ciclo stampo a console il nuovo array
+
 
 ### SNACK BONUS ###
