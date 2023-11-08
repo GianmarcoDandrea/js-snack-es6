@@ -36,5 +36,4 @@ const newArray = getSubArray(numbersArray, 1, 3) ---> [14, 6, 8];
 
 - A fine ciclo stampo a console il nuovo array
 
-
 ### SNACK BONUS ###
