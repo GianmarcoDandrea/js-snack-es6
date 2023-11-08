@@ -24,4 +24,5 @@ const newArray = getSubArray(numbersArray, 1, 3) ---> [14, 6, 8];
 1. Tramite ciclo faccio forEach scorrere l'array e con object destructuring prendo le chiavi degli oggeti e le stampo a video e poi tramite un ciclo if stampo l'oggetto con il peso più baso.
 
 ### SNACK 2 ###
+
 ### SNACK BONUS ###
