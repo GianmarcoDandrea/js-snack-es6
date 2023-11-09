@@ -55,7 +55,7 @@ teams.forEach (curTeam => {
 console.log(teams);
 
 teams.forEach((curTeam) => {
-    let newTeamElem = [];
+    let newTeamElem = {};
     const {name, fouls} = curTeam;
     console.log(name, fouls);
     
@@ -68,6 +68,18 @@ teams.forEach((curTeam) => {
 
 console.log(newTeamArray);
 
+// CORREZIONE 
+const newTeams = teams.map((team) => {
+    const {name, fouls} = team;
+    console.log(name, fouls);
+
+    return {
+        name,
+        fouls
+    }
+})
+
+console.log(newTeams);
 
 
 // FUNCTIONS
